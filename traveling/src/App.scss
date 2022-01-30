@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    background: -webkit-linear-gradient(90deg, rgba(251,170,128,1) 0%, rgba(247,203,108,1) 35%);
+            
+    background: rgb(253, 84, 0);
+     background: linear-gradient(90deg, rgba(251,170,128,1) 0%, rgba(247,203,108,1) 35%);
+}
+.App{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    #se{
+        text-decoration: none;
+        color: #f1f1f1;
+        #see{
+            font-family: 'Oswald', sans-serif;
+            position: absolute;
+            top: 110%;
+            #img11{
+                width: 90%;
+            }
+            
+            #seano{
+                bottom: 3%;
+                font-family: 'Oswald', sans-serif;
+            }
+        }
+    }
+    #DomH4{
+        font-size: 18px;
+    }
+    #Domi{
+        text-decoration: none;
+        color: #fff;
+        
+        #Domii{
+            #img1{
+                position: absolute;
+                top: 73%;
+                width: 40%;
+                height: 30%;
+            }
+            #ano1{
+                position: absolute;
+                top: 64%;
+                font-family: 'Oswald', sans-serif;
+            }
+            #DomiH4{
+                font-family: 'Oswald', sans-serif;
+                position: absolute;
+                top: 58%;
+            }
+        }
+        
+    }
+    .AppH{
+        background-color: aqua;
+        color: azure;
+        text-align: center;
+    }
+    
+    #Pid{
+
+        text-decoration: none;
+        color: #fff;
+       
+        #Pidd{
+            #pidimg{
+                width: max(25%, 25vw);
+                height: max(25%, 25vh);
+                position: absolute;
+                top:30%;
+            }
+            text-decoration: none;
+            color: #fff;
+            width: 100%;
+           
+            #ano{
+                font-family: 'Oswald', sans-serif;
+                position: absolute;
+                top:20%;
+            }
+            
+            #PidH4{
+                font-family: 'Oswald', sans-serif;
+                position: absolute;
+                left: 5%;
+            }
+        }
+    }
+}
