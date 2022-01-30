@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap');
+  #app {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #1F1F1F;
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+    
+    #cacl{
+      position: absolute;
+      top:70%;
+      font-family: 'Work Sans', sans-serif;
+      color: #F1F1F1;
+      font-size:20px;
+      height: 10%;
+      width: 100%;
+      
+      background-color: transparent;
+    }
+    .app1active{
+      display: block;
+    }
+    #app1{
+      display: none;
+      color: #F1F1F1;
+      #bmi1{
+      
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 46px;
+        line-height: 42px;
+        position: absolute;
+        left: 36%;
+        top:10%;
+        color: #F1F1F1;
+      }
+      #bmi{
+      
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 56px;
+        line-height: 42px;
+        position: absolute;
+        left: 40%;
+        top: 20%;
+        color: #F1F1F1;
+      }
+      #res{
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 46px;
+        text-transform: uppercase;
+        line-height: 42px;
+        position: absolute;
+        left: 25%;
+        top: 35%;
+        color: #F1F1F1;
+      }
+    }
+    #w{
+        width: 60%;
+        position: absolute;
+        top: 40%;
+        left: 20%;
+        height: 10%;
+        font-size: 18px;
+        color: aliceblue;
+        background: #1F1F1F;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), inset 2px 2px 2px rgba(255, 255, 255, 0.1);
+        #q{
+          position: absolute;
+          left: 50%;
+        }
+        #ww4{
+          position: absolute;
+          left: 40%;
+          color: red;
+          bottom: -30%;
+          font-size: 24px;
+        }
+        #m{
+          position: absolute;
+          top:20%;
+        }
+        #p{
+          position: absolute;
+          top: 20%;
+          left: 90%;
+        }
+      }
+    #h{
+        width: 60%;
+        position: absolute;
+        top: 10%;
+        left: 20%;
+        height: 10%;
+        font-size: 18px;
+        color: aliceblue;
+        background: #1F1F1F;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), inset 2px 2px 2px rgba(255, 255, 255, 0.1);
+        #q{
+          position: absolute;
+          left: 50%;
+        }
+        #hh4{
+          position: absolute;
+          left: 40%;
+          bottom: -30%;
+          font-size: 24px;
+        }
+        #m{
+          position: absolute;
+          top:20%;
+        }
+        #p{
+          position: absolute;
+          top: 20%;
+          left: 90%;
+        }
+      }
+  }
+  
